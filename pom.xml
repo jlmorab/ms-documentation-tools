@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.jlmorab.ms</groupId>
+	<artifactId>ms-documentation-tools</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ms-documentation-tools</name>
+	<description>Configuration and tools for documentation in web projects in a microservices environment</description>
+	
+</project>
