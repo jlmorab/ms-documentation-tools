@@ -4,10 +4,59 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.jlmorab.ms</groupId>
+	<parent>
+        <groupId>com.jlmorab.ms</groupId>
+        <artifactId>ms-parent</artifactId>
+        <version>0.2.0</version>
+	</parent>   
+	
 	<artifactId>ms-documentation-tools</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<name>ms-documentation-tools</name>
 	<description>Configuration and tools for documentation in web projects in a microservices environment</description>
+	
+	<developers>
+		<developer>
+			<name>José Luis Mora Barrios</name>
+			<email>jlmorab@hotmail.com</email>
+		</developer>
+	</developers>
+	
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub jlmorab Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/jlmorab/ms</url>
+		</repository>
+	</distributionManagement>
+	
+	<repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub jlmorab - Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/jlmorab/ms</url>
+		</repository>
+	</repositories>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>21</java.version>
+	</properties>
+	
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
 	
 </project>
