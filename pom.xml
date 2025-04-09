@@ -11,7 +11,7 @@
 	</parent>   
 	
 	<artifactId>ms-documentation-tools</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.1</version>
 	<name>ms-documentation-tools</name>
 	<description>Configuration and tools for documentation in web projects in a microservices environment</description>
 	
